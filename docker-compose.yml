@@ -1,7 +1,7 @@
 name: mavenwebapp
 services:
   mavenwebapp:
-    image: awssandy/maven-web-app:${IMAGE_TAG}
+    image: awssandy/maven-web-application:${IMAGE_TAG}
     ports:
     - 9090:8080
     networks:
